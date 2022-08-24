@@ -1,4 +1,4 @@
-# CIS106AnthonyEsposito
+# CIS106 Anthony Esposito
 
 ## Assignment 1
 
