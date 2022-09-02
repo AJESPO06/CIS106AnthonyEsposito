@@ -10,4 +10,4 @@ Process:
 
 Output:
 
-    Hello Anthony!
+    Hello Anthony
