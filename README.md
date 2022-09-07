@@ -8,3 +8,6 @@ Hello Professor and classmates (if you are reading this). The reason I am taking
 
 Hello Professor,
 The programming language I am choosing to use for this course is Python. I would like to learn python since it is easiest to begin with and this course is based off of Python. I plan to use Python to make an NES emulator on the a Raspberry Pi for a Christmas gift to my father, since he loves NES. I plan to continue using GDBonline since I have an account and a few previous projects saved. I am used to using GDBonline so I will continue using that unless I have to change IDE's.
+
+## Assignment 3
+
