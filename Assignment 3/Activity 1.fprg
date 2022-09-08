@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-08 02:58:58 PM"/>
+        <attribute name="created" value="QWNlcjtBTlRIT05ZOzIwMjItMDktMDg7MDE6NTI6MTIgUE07MjIwMg=="/>
+        <attribute name="edited" value="QWNlcjtBTlRIT05ZOzIwMjItMDktMDg7MDI6NTg6NTggUE07MzsyMzI5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="This program calculates the Weekly, Monthly, and Annual Gross Pay"/>
+            <declare name="hoursWorked" type="Integer" array="False" size=""/>
+            <declare name="hourlyWage" type="Integer" array="False" size=""/>
+            <declare name="weeklyPay" type="Integer" array="False" size=""/>
+            <declare name="monthlyPay" type="Integer" array="False" size=""/>
+            <declare name="annualPay" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter hours worked&quot;" newline="False"/>
+            <input variable="hoursWorked"/>
+            <output expression="&quot;Enter hourly wage&quot;" newline="True"/>
+            <input variable="hourlyWage"/>
+            <assign variable="weeklyPay" expression="hourlyWage * hoursWorked"/>
+            <assign variable="monthlyPay" expression="(hourlyWage * hoursWorked) * 4"/>
+            <assign variable="annualPay" expression="(hourlyWage * hoursWorked) * 52"/>
+            <output expression="&quot;Weekly pay is &quot; &amp; weeklyPay" newline="False"/>
+            <output expression="&quot; Monthly pay is &quot; &amp; monthlyPay" newline="True"/>
+            <output expression="&quot;Annual pay is &quot; &amp; annualPay" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
