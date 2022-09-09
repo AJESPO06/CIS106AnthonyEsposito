@@ -1,22 +1,24 @@
 <?xml version="1.0"?>
-<flowgorithm fileversion="3.0">
+<flowgorithm fileversion="2.11">
     <attributes>
         <attribute name="name" value=""/>
         <attribute name="authors" value="Acer"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-09-08 02:58:58 PM"/>
+        <attribute name="saved" value="2022-09-09 10:26:26 AM"/>
         <attribute name="created" value="QWNlcjtBTlRIT05ZOzIwMjItMDktMDg7MDE6NTI6MTIgUE07MjIwMg=="/>
         <attribute name="edited" value="QWNlcjtBTlRIT05ZOzIwMjItMDktMDg7MDI6NTg6NTggUE07MzsyMzI5"/>
+        <attribute name="edited" value="ZGF2ZWJyYXVuc2Nod2VpZztXSU5ET1dTMTE7MjAyMi0wOS0wOTsxMDoyNjoyNiBBTTsxOzM3Mjk="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <comment text="This program calculates the Weekly, Monthly, and Annual Gross Pay"/>
-            <declare name="hoursWorked" type="Integer" array="False" size=""/>
-            <declare name="hourlyWage" type="Integer" array="False" size=""/>
-            <declare name="weeklyPay" type="Integer" array="False" size=""/>
-            <declare name="monthlyPay" type="Integer" array="False" size=""/>
-            <declare name="annualPay" type="Integer" array="False" size=""/>
+            <comment text="References:&#13;&#10;    References go here ..."/>
+            <declare name="hoursWorked" type="Real" array="False" size=""/>
+            <declare name="hourlyWage" type="Real" array="False" size=""/>
+            <declare name="weeklyPay" type="Real" array="False" size=""/>
+            <declare name="monthlyPay" type="Real" array="False" size=""/>
+            <declare name="annualPay" type="Real" array="False" size=""/>
             <output expression="&quot;Enter hours worked&quot;" newline="False"/>
             <input variable="hoursWorked"/>
             <output expression="&quot;Enter hourly wage&quot;" newline="True"/>

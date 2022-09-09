@@ -1,8 +1,10 @@
 # This program calculates the Weekly, Monthly, and Annual Gross Pay
+# References:
+# References go here ...
 print("Enter hours worked", end='', flush=True)
-hoursWorked = int(input())
+hoursWorked = float(input())
 print("Enter hourly wage")
-hourlyWage = int(input())
+hourlyWage = float(input())
 weeklyPay = hourlyWage * hoursWorked
 monthlyPay = hourlyWage * hoursWorked * 4
 annualPay = hourlyWage * hoursWorked * 52
